@@ -31,13 +31,13 @@ namespace OutlineElevations
                 string exeConfigPath = Utils.GetExeConfigPath("OutlineElevations.dll");
 
                 // Finds and creates the tab, finds and creates the panel
-                RibbonPanel DefaultPanel = Utils.GetRevitPanel(uiApp, GasToolsGlobals.PANEL_NAME);
+                RibbonPanel DefaultPanel = Utils.GetRevitPanel(uiApp, GlobalVars.PANEL_NAME);
                 #endregion
 
                 // Button configuration
                 string OutlineElevationsName = "";
                 PushButtonData OutlineElevationsData = new PushButtonData(OutlineElevationsName, OutlineElevationsName, exeConfigPath, "OutlineElevations.ThisCommand");
-                OutlineElevationsData.LargeImage = Utils.RetriveImage("OutlineElevations.Resources.OutlineElevations32x32.ico", Assembly.GetExecutingAssembly()); // Pushbutton image
+                OutlineElevationsData.LargeImage = Utils.RetriveImage("OutlineElevations.Resources.CropReg32x32.ico", Assembly.GetExecutingAssembly()); // Pushbutton image
                 OutlineElevationsData.ToolTip = "";
                 DefaultPanel.AddItem(OutlineElevationsData); // Add pushbutton
 

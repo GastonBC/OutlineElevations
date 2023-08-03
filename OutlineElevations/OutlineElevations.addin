@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
   <AddIn Type="Application">
-    <Name>$safeprojectname$</Name>
-    <Assembly>$safeprojectname$.dll</Assembly>
-    <AddInId>$guid1$</AddInId>
+    <Name>Outline Elevations</Name>
+    <Assembly>OutlineElevations.dll</Assembly>
+    <AddInId>ab29e823-b124-4cd7-81a4-20406504de48</AddInId>
     <Description>Description</Description>
-    <FullClassName>$safeprojectname$.ThisApplication</FullClassName>
+    <FullClassName>OutlineElevations.ThisApplication</FullClassName>
     <VendorId>Gast</VendorId>
     <VendorDescription>gastonbalparda@gmail.com</VendorDescription>
   </AddIn>
