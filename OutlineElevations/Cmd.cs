@@ -21,6 +21,8 @@ namespace OutlineElevations
             {
                 UIDocument uidoc = commandData.Application.ActiveUIDocument;
                 Document doc = uidoc.Document;
+                MainWindow SheetDialog = new MainWindow(uidoc);
+                SheetDialog.ShowDialog();
 
                 return Result.Succeeded;
             }

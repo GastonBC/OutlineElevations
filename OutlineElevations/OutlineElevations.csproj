@@ -63,7 +63,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="OutlineElevations.addin" />
+    <None Include="OutlineElevations.addin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -83,7 +85,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\CropReg32x32.ico" />
+    <EmbeddedResource Include="Resources\CropReg32x32.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
