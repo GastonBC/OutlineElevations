@@ -31,7 +31,7 @@ namespace OutlineElevations
                 string exeConfigPath = Utils.GetExeConfigPath("OutlineElevations.dll");
 
                 // Finds and creates the tab, finds and creates the panel
-                RibbonPanel DefaultPanel = Utils.GetRevitPanel(uiApp, GlobalVars.PANEL_NAME);
+                RibbonPanel DefaultPanel = Utils.GetRevitPanel(uiApp, GlobalVars.PANEL_NAME, GlobalVars.TAB_NAME);
                 #endregion
 
                 // Button configuration
